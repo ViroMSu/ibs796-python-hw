@@ -1,0 +1,94 @@
+LOCUS       NC_002745            2814816 bp    DNA     circular CON 30-JUL-2015
+DEFINITION  Staphylococcus aureus subsp. aureus N315 DNA, complete genome.
+ACCESSION   NC_002745 NZ_AP003129 NZ_AP003130 NZ_AP003131 NZ_AP003132
+            NZ_AP003133 NZ_AP003134 NZ_AP003135 NZ_AP003136 NZ_AP003137
+            NZ_AP003138
+VERSION     NC_002745.2  GI:29165615
+DBLINK      BioProject: PRJNA224116
+            Assembly: GCF_000009645.1
+KEYWORDS    RefSeq.
+SOURCE      Staphylococcus aureus subsp. aureus N315
+  ORGANISM  Staphylococcus aureus subsp. aureus N315
+            Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+            Staphylococcus.
+REFERENCE   1
+  AUTHORS   Kuroda,M., Ohta,T., Uchiyama,I., Baba,T., Yuzawa,H., Kobayashi,I.,
+            Cui,L., Oguchi,A., Aoki,K., Nagai,Y., Lian,J., Ito,T., Kanamori,M.,
+            Matsumaru,H., Maruyama,A., Murakami,H., Hosoyama,A.,
+            Mizutani-Ui,Y., Takahashi,N.K., Sawano,T., Inoue,R., Kaito,C.,
+            Sekimizu,K., Hirakawa,H., Kuhara,S., Goto,S., Yabuzaki,J.,
+            Kanehisa,M., Yamashita,A., Oshima,K., Furuya,K., Yoshino,C.,
+            Shiba,T., Hattori,M., Ogasawara,N., Hayashi,H. and Hiramatsu,K.
+  TITLE     Whole genome sequencing of meticillin-resistant Staphylococcus
+            aureus
+  JOURNAL   Lancet 357 (9264), 1225-1240 (2001)
+   PUBMED   11418146
+REFERENCE   2  (bases 1 to 2814816)
+  AUTHORS   Aoki,K., Oguchi,A., Hosoyama,A., Nagai,Y., Kuroda,M., Hiramatsu,K.
+            and Kikuchi,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-APR-2001) Contact:Director-General, Biotechnology
+            Center National Institute of Technology and Evaluation,
+            Biotechnology Center; 2Chome 49-10 Nishihara, Shibuya-ku, Tokyo
+            151-0066, Japan URL :http://www.bio.nite.go.jp/
+COMMENT     REFSEQ INFORMATION: The reference sequence was derived from
+            BA000018.
+            On Mar 24, 2003 this sequence version replaced gi:15925705.
+            Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: http://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+
+            ##Genome-Annotation-Data-START##
+            Annotation Provider                    :: NCBI
+            Annotation Date                        :: 07/30/2015 14:57:44
+            Annotation Pipeline                    :: NCBI Prokaryotic Genome
+                                                      Annotation Pipeline
+            Annotation Method                      :: Best-placed reference
+                                                      protein set; GeneMarkS+
+            Annotation Software revision           :: 3.0
+            Features Annotated                     :: Gene; CDS; rRNA; tRNA;
+                                                      ncRNA; repeat_region
+            Genes                                  :: 2,861
+            CDS                                    :: 2,742
+            Pseudo Genes                           :: 42
+            rRNAs                                  :: 6, 5, 5 (5S, 16S, 23S)
+            complete rRNAs                         :: 6, 5, 5 (5S, 16S, 23S)
+            tRNAs                                  :: 61
+            ncRNA                                  :: 0
+            Frameshifted Genes                     :: 22
+            Frameshifted Genes On Monomer Runs     :: 8
+            Frameshifted Genes Not On Monomer Runs :: 0
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2814816
+                     /organism="Staphylococcus aureus subsp. aureus N315"
+                     /mol_type="genomic DNA"
+                     /sub_species="aureus"
+                     /db_xref="taxon:158879"
+     gene            517..1878
+                     /locus_tag="SA_RS00145"
+                     /old_locus_tag="SA0001"
+     CDS             517..1878
+                     /locus_tag="SA_RS00145"
+                     /old_locus_tag="SA0001"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_001290432.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="chromosomal replication initiator protein DnaA"
+                     /protein_id="WP_001290433.1"
+                     /db_xref="GI:447213177"
+
+ORIGIN
+        1 cgattaaaga tagaaataca cgatgcgagc aatcaaattt cataacatca ccatgagttt
+       61 ggtccgaagc atgagtgttt acaatgtttg aataccttat acagttctta tacatacttt
+      121 ataaattatt tcccaagctg ttttgataca ctcactaaca gatattctat agaaggaaaa
+      181 gttatccact tatgcacatt tatagttttc agaattgtgg ataattagaa attacacaca
+      241 aagttatact atttttagca acatattcac aggtatttga catatagaga actgaaaaag
+      301 tataattgtg tggataagtc gtccaactca tgattttata aggatttatt tattgatatt
+      361 tacataaaaa tactgtgcat aactaataag caggataaag ttatccaccg attgttatta
+      421 acttgtggat aattattaac atggtgtgtt tagaagttat ccacggctgt tatttttgtg
+      481 tataacttaa aaatttaaga aagatggagt aaatttatgt cggaaaaaga aatttgggaa

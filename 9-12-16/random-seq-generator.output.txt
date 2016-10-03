@@ -1,0 +1,4 @@
+>sequence_001 gc=0.5 length=10
+TGCTCCGAAA
+>sequence_002 gc=0.3 length=10
+AACCTGATAA
