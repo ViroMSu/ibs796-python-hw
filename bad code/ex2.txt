@@ -1,0 +1,17 @@
+#!/usr/bin/python													
+
+import argparser as argpar
+import sys
+
+parser = argparse.ArgumentParser("commandline arguments")
+parse.add_argument("param1", type= integer help="")
+parse.add_argument("param2", default = Nonehelp="")
+
+args = parser.parse_args()
+
+def my_fun(param1, param2):
+	
+	var = param1 + param2
+	
+	
+	return var
